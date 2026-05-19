@@ -124,7 +124,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{333227a7-ff65-43ac-b711-c5a96a3eef1e}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Bass</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4e8c4503-a4a0-4198-a1b6-056c95feb8f8}</destination>
@@ -145,8 +145,11 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8ee59b05-e05f-4679-a2a9-1dd5b822b8c7}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
-			<value>Audio 2</value>
+			<value>Drums</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{16dd304e-6118-4b10-9dab-58a29438c70c}</destination>
@@ -168,7 +171,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ee897fd9-268c-4ef9-8cb3-767f17906d96}">
 		<property name="name">
-			<value>Audio 3</value>
+			<value>HiHat</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{afd26c70-1947-42c2-8d0a-d5e05e09bce5}</destination>
@@ -223,6 +226,7 @@
 	<object class="MixerBusPanner" id="{9f0e375e-a815-46f9-b10e-386bcae93772}" />
 	<object class="MixerBusEffectChain" id="{16dd304e-6118-4b10-9dab-58a29438c70c}">
 		<relationship name="effects">
+			<destination>{2fd87707-7dec-45d2-bea3-5f23c2151284}</destination>
 			<destination>{f358c99b-9fef-449e-b7ca-4e8e97091b83}</destination>
 		</relationship>
 	</object>
@@ -235,6 +239,11 @@
 	<object class="MixerBusPanner" id="{45936189-3433-43c9-ad60-7ea9edcd3294}" />
 	<object class="MixerBusFader" id="{5b83a7b0-7512-418d-969b-d3e343b65ba1}" />
 	<object class="MixerBusFader" id="{6ed1bb84-2f13-4b90-875d-ff6261ff8d97}" />
+	<object class="TransceiverEffect" id="{2fd87707-7dec-45d2-bea3-5f23c2151284}">
+		<property name="transmitMode">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f358c99b-9fef-449e-b7ca-4e8e97091b83}" />
 	<object class="MixerBusFader" id="{9217f07a-3a04-47cd-8c16-02bcfb3217b4}" />
 </objects>
