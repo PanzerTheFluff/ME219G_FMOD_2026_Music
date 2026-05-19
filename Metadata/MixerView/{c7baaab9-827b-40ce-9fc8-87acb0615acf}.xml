@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Music</value>
 		</property>
+		<relationship name="assignedStrips">
+			<destination>{04dc37fc-0ee9-4a56-b57c-5046c12da8a9}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
 		</relationship>
