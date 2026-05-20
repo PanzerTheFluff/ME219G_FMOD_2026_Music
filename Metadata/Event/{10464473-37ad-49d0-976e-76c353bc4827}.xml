@@ -5,7 +5,7 @@
 			<value>ForeginHome</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a77e7a0a-7760-4182-b3e6-fcd1a420da03}</destination>
@@ -163,7 +163,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{be4ed659-1bce-4eda-8356-a5961157816f}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -238,6 +238,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{d4ce3ada-170d-4d0f-bdc6-006851c2e436}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -305,7 +308,6 @@
 	<object class="MixerBusEffectChain" id="{b077be4e-3862-4c03-9fc1-c59eaabcffdf}">
 		<relationship name="effects">
 			<destination>{783c7e42-3640-42f8-84b0-024614e7aa17}</destination>
-			<destination>{c2b24815-8cdd-4771-aefe-ecaa94e01d26}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f5990dcc-40f1-4810-8c2a-03557ccb4fb3}" />
@@ -358,6 +360,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8f2d1f31-ca57-4d42-bcb0-32cb8024605f}">
 		<relationship name="effects">
+			<destination>{204cb261-7e1f-4027-b144-ed3453c6dd89}</destination>
 			<destination>{e86d4a08-a218-43a3-8239-d21390b98bb3}</destination>
 		</relationship>
 	</object>
@@ -378,7 +381,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{783c7e42-3640-42f8-84b0-024614e7aa17}" />
-	<object class="SpatialiserEffect" id="{c2b24815-8cdd-4771-aefe-ecaa94e01d26}" />
 	<object class="AutomationPoint" id="{bd0f64d0-0174-4f4e-9091-27373729acb5}">
 		<property name="position">
 			<value>0</value>
@@ -444,6 +446,14 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="TransceiverEffect" id="{204cb261-7e1f-4027-b144-ed3453c6dd89}">
+		<property name="transmitMode">
+			<value>true</value>
+		</property>
+		<property name="channel">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e86d4a08-a218-43a3-8239-d21390b98bb3}" />
