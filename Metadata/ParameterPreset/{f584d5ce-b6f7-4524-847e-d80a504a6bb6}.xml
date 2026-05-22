@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f584d5ce-b6f7-4524-847e-d80a504a6bb6}">
+		<property name="name">
+			<value>ToggleSky</value>
+		</property>
+		<relationship name="folder">
+			<destination>{65cd4e6b-810f-43b3-9ba4-27e205231008}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fa1aa3a4-cf35-4431-933c-9868bb7e2a42}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fa1aa3a4-cf35-4431-933c-9868bb7e2a42}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{c7b7737e-6651-4fe3-a08f-d2c746196fa4}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{c7b7737e-6651-4fe3-a08f-d2c746196fa4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.41999998688697815</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>
