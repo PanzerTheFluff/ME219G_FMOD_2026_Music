@@ -5,7 +5,10 @@
 			<value>Music</value>
 		</property>
 		<relationship name="assignedStrips">
-			<destination>{04dc37fc-0ee9-4a56-b57c-5046c12da8a9}</destination>
+			<destination>{dc9e6886-147f-49e2-8ed6-47b6b6100a10}</destination>
+			<destination>{1320d691-f4fa-4469-8735-68a0e4fc20ee}</destination>
+			<destination>{8a31a46f-8c0a-43c0-8255-a73f231cd30f}</destination>
+			<destination>{fe8b0b6d-1072-43f9-86d0-442bdb392147}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{cc20bef3-7d44-4d1d-bd6a-cf11e4938021}">
+		<property name="name">
+			<value>Stinger</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{2e49a5e0-bfa1-4b4e-99d4-39a71bae3b68}</destination>
+			<destination>{369ab0d1-71d1-4813-8b45-b407001b3b8f}</destination>
+			<destination>{4ab392b5-882c-4348-9533-092aa9c36f32}</destination>
+			<destination>{901e34da-b290-41ac-99ae-fd715ab1fa61}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+	</object>
+</objects>
