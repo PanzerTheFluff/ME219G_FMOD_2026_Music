@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{b5b61ac0-aa04-4d59-b1e3-37a8c70eaed6}">
+	<object class="AudioFile" id="{52e7bb94-7a86-415b-bb34-64887fd67514}">
 		<property name="assetPath">
 			<value>Music/BossFight/BossTheme3Hp.wav</value>
 		</property>
