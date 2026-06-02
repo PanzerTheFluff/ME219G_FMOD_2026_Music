@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{52e7bb94-7a86-415b-bb34-64887fd67514}">
+	<object class="AudioFile" id="{f18f285a-9f1d-43c3-91d6-b8e91d8a73b2}">
 		<property name="assetPath">
-			<value>Music/BossFight/BossTheme3Hp.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Music/BossFight/BossThemeBass.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>57.950680272108841</value>
+			<value>32.68736961451247</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

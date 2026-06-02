@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{57314176-e9bb-45a8-9ef5-33c8c753462c}">
+	<object class="AudioFile" id="{2535d797-a98f-438d-b53d-2bfe60b2ea1f}">
 		<property name="assetPath">
 			<value>Music/BossFight/BossTheme1Hp.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
