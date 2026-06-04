@@ -332,7 +332,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{2353bbf3-1143-4f62-93df-248d005891eb}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>32.68736961451247</value>
@@ -407,7 +407,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{4c50484f-f218-4cd0-a80f-26dc0d0b72b7}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>31.201292517006802</value>
@@ -482,7 +482,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{d243e350-b5fd-4859-9fd0-f37a2796f568}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>32.68736961451247</value>
@@ -557,7 +557,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{6da7781b-7f6a-4e93-8a45-5f64733425a5}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>31.201292517006802</value>
@@ -635,7 +635,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{3b169fc7-292b-4355-81ec-1bd26349e887}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>32.68736961451247</value>
@@ -710,7 +710,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{5ffacad2-9353-434a-8aa6-285032018b24}">
 		<property name="start">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>32.68736961451247</value>
@@ -946,6 +946,9 @@ Stinger för när man besegrar bossen</value>
 		<property name="length">
 			<value>17.826598639455781</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{e5a83d8e-c270-4ecb-a09f-99560bd9dde9}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{105a12a4-c21c-45e2-98a6-d2700a826997}</destination>
 		</relationship>
@@ -982,7 +985,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="TempoMarker" id="{bc819163-c396-4cc1-85a4-38c679390ac4}">
 		<property name="position">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="tempo">
 			<value>125</value>
@@ -996,7 +999,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="LoopRegion" id="{b718cdaa-aed5-4acb-8be3-93761e6aab0a}">
 		<property name="position">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>30.719999999999999</value>
@@ -1078,7 +1081,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="NamedMarker" id="{2f69bad2-9f0e-4f05-8b71-9764ea3a541e}">
 		<property name="position">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="name">
 			<value>3 Hp</value>
@@ -1092,7 +1095,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="TransitionRegion" id="{5cd5b3c6-6944-4cbf-983f-4f628c5eccdf}">
 		<property name="position">
-			<value>28.800000000000001</value>
+			<value>28.949999999999999</value>
 		</property>
 		<property name="length">
 			<value>30.719999999999992</value>
@@ -1455,6 +1458,14 @@ Stinger för när man besegrar bossen</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8d1d48aa-c30e-4501-ab3c-91bc2be5be9a}" />
+	<object class="FadeCurve" id="{e5a83d8e-c270-4ecb-a09f-99560bd9dde9}">
+		<relationship name="startPoint">
+			<destination>{9029562b-7204-455c-a7d7-33d7dcfc2876}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{20e16779-fa6f-4769-9a6e-91fdeb58e393}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{fe8f71fe-5fde-412d-a7da-4e91a3e302d9}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -2046,6 +2057,25 @@ Stinger för när man besegrar bossen</value>
 	<object class="GainEffect" id="{8208717e-b39c-42fe-b45d-009afbfe772c}">
 		<property name="gain">
 			<value>6</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9029562b-7204-455c-a7d7-33d7dcfc2876}">
+		<property name="position">
+			<value>27.554510700229734</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{20e16779-fa6f-4769-9a6e-91fdeb58e393}">
+		<property name="position">
+			<value>32.227261700098268</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{e79188e1-be2d-4849-a3d4-7bd935ef7aee}">
