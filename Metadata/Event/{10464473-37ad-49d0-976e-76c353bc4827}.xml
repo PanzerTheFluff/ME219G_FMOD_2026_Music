@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{10464473-37ad-49d0-976e-76c353bc4827}">
+		<property name="note">
+			<value>ForeginHome har 2 perameters och e3 transeiver/reciver.
+
+ToggleSky är en parameter för progression angående nycklar. den ska vara på huvud dörren. (har också 2 transiver/receiver:s för att ha liknande effekt som ForeginHomeShip I zon 1, som inte verkar fungera som det ska dock pga Unity.
+
+ToggleZone3 är en parameter för Zon 3:s variant.
+
+Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på skäppet i zon 1</value>
+		</property>
 		<property name="name">
 			<value>ForeginHome</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bea5a772-8664-4b7e-af65-dd9ae3297a23}">
+		<property name="note">
+			<value>Receiver för ForeginHomeShip</value>
+		</property>
 		<property name="name">
 			<value>ForeginHome(ship)</value>
 		</property>

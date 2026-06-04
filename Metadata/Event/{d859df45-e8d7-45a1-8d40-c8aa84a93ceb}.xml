@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d859df45-e8d7-45a1-8d40-c8aa84a93ceb}">
+		<property name="note">
+			<value>Musiken som spelas i start scenen</value>
+		</property>
 		<property name="name">
 			<value>Title</value>
 		</property>

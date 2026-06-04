@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f8842c8c-5a72-4f3a-9e25-64a9fec5e18f}">
+		<property name="note">
+			<value>Stinger för när man tar upp vapnet i zon 3</value>
+		</property>
 		<property name="name">
 			<value>stingerWeaponPickup</value>
 		</property>
@@ -73,7 +76,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{b31d7895-f4f4-4254-8af1-499b8ff60efa}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5411ab93-3f13-4185-b6ab-ec32f25eaa8c}</destination>

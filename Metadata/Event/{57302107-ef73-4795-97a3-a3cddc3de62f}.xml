@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{57302107-ef73-4795-97a3-a3cddc3de62f}">
+		<property name="note">
+			<value>Musiken som spelas i zon 4</value>
+		</property>
 		<property name="name">
 			<value>MusicIndoors</value>
 		</property>
@@ -85,7 +88,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ec6bc4d8-ce3e-41b1-a2cb-5891ab0687ad}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f78769b5-d15f-48fa-9588-a8860660356a}</destination>

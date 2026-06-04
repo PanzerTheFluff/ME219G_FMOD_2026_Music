@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7db4576a-c5a0-4f1d-8f4c-8f50935ead0d}">
+		<property name="note">
+			<value>"BossFight" includerar:
+Ambiance (pre boss)
+Stinger för när man möter bossen
+Ett Boss tema med 3 varianter baserat på boss HP
+Stinger för när man besegrar bossen</value>
+		</property>
 		<property name="name">
 			<value>BossFight</value>
 		</property>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{76d88e22-afd3-4945-95d0-e60e267f8fd0}">
+	<object class="AudioFile" id="{6f166d4f-555b-45d4-9526-d9ac1613b716}">
 		<property name="assetPath">
 			<value>Stingers/PuzzleSolved.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
