@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1431fdc8-5608-4c88-96c0-21afdfc9bef5}">
+		<property name="name">
+			<value>ToggleZone3</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{11682c5b-1290-4be5-a33d-cc46aa9de3a9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{11682c5b-1290-4be5-a33d-cc46aa9de3a9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{f3ca4d79-c406-4347-8f3a-ce9612c41794}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{f3ca4d79-c406-4347-8f3a-ce9612c41794}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.68000000715255737</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.68999999761581421</value>
+		</property>
+		<property name="asymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>
