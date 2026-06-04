@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{6ee1bb9b-d81e-430b-b7e0-4ea0a4467110}">
 		<property name="assetPath">
-			<value>Music/BossFight/BossDefeatStinger.wav</value>
+			<value>Stingers/BossDefeatStinger.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
