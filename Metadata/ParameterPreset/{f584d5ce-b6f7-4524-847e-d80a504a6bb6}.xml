@@ -23,8 +23,11 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>cursorPosition</value>
 		</property>
+		<property name="speedAscending">
+			<value>0.23999999463558197</value>
+		</property>
 		<property name="speedDescending">
-			<value>0.41999998688697815</value>
+			<value>0.25999999046325684</value>
 		</property>
 		<property name="asymmetric">
 			<value>true</value>
