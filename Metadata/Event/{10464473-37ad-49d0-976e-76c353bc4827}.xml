@@ -8,7 +8,9 @@ ToggleSky är en parameter för progression angående nycklar. den ska vara på 
 
 ToggleZone3 är en parameter för Zon 3:s variant.
 
-Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på skäppet i zon 1</value>
+Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på skäppet i zon 1.
+
+"Acid" är kopplat till acid havet i zon 3</value>
 		</property>
 		<property name="name">
 			<value>ForeginHome</value>
@@ -472,15 +474,15 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 	</object>
 	<object class="TransitionSourceSound" id="{c1b8c991-8217-496a-b9cd-cde807ed3d84}">
 		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{eab7f697-ecb7-47a2-9d58-4e2c40942934}">
-		<property name="start">
 			<value>2</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{de943189-29de-4589-811e-5f4faf3212bd}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionDestinationSound" id="{eab7f697-ecb7-47a2-9d58-4e2c40942934}">
 		<property name="length">
-			<value>0</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{42410901-80c0-4153-a657-4659566fd5c2}">
@@ -493,7 +495,7 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 	</object>
 	<object class="EventMixerGroup" id="{76f1a813-68e9-4117-a450-e77cf678495b}">
 		<property name="name">
-			<value>Combat</value>
+			<value>Acid</value>
 		</property>
 		<relationship name="automators">
 			<destination>{1897edb2-c7d6-46dc-a05f-c8c87b1867c8}</destination>
@@ -689,6 +691,17 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{41880796-9838-4e1e-8918-e2d2ec2d65a1}" />
+	<object class="TransitionSourceFadeOutCurve" id="{de943189-29de-4589-811e-5f4faf3212bd}">
+		<relationship name="startPoint">
+			<destination>{7facc779-d17e-4b26-b2ba-4a062e5b5192}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{f8a6687a-0d17-47a3-8b2b-2b0a2d74de35}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{eab7f697-ecb7-47a2-9d58-4e2c40942934}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{1897edb2-c7d6-46dc-a05f-c8c87b1867c8}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -905,6 +918,25 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0c2f9bd7-e4d9-4db0-bc30-6b14c44d9f35}" />
+	<object class="AutomationPoint" id="{7facc779-d17e-4b26-b2ba-4a062e5b5192}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f8a6687a-0d17-47a3-8b2b-2b0a2d74de35}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{e6a094e5-58b4-4ec4-8033-ec2d303218d1}">
 		<relationship name="parameter">
 			<destination>{85644afc-7254-4d96-9ef9-1aaf94bf55f1}</destination>
@@ -992,7 +1024,10 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-70</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.346227825</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cfd35239-9324-44f6-b6e4-9c1207681302}">
@@ -1000,7 +1035,7 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<value>0.97999999999999998</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{09db2806-62cb-4263-bb74-d8d799ce42ac}">
