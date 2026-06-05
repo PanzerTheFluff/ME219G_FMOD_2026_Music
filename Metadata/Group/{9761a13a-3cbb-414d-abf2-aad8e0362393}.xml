@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Stinger</value>
 		</property>
+		<relationship name="masters">
+			<destination>{97d5a320-7b18-46b2-8e2a-e79a4d5035aa}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{12ad3c96-2cf3-455b-98b0-f6e48a2e0674}</destination>
 		</relationship>
