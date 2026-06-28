@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{027b40f6-cfc9-41bd-8369-f8de66795a65}">
 		<property name="note">
-			<value>Stinger som spelar när man dött</value>
+			<value>Stinger som spelar när man dött ("Music" fortsätter att spelas in i death scenen och jag kan iinte liste ut hur man fixar det. Jag läste igenom "death stinger guiden" flera gånger)</value>
 		</property>
 		<property name="name">
 			<value>stingerGameOver</value>
