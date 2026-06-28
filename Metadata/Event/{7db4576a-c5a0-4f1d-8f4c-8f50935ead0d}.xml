@@ -6,7 +6,9 @@
 Ambiance (pre boss)
 Stinger för när man möter bossen
 Ett Boss tema med 3 varianter baserat på boss HP
-Stinger för när man besegrar bossen</value>
+Stinger för när man besegrar bossen
+(Gjorde prefaben mer tydlig.
+0=ambiance, 1=cutscene/stage1, 2=stage2, 3=stage=3 och 4=boss defeat</value>
 		</property>
 		<property name="name">
 			<value>BossFight</value>
@@ -875,7 +877,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="SingleSound" id="{5018358d-b36b-439b-bb2d-119cccab1d7b}">
 		<property name="start">
-			<value>67.200000000000003</value>
+			<value>67.349999999999994</value>
 		</property>
 		<property name="length">
 			<value>10.396213151927437</value>
@@ -1118,7 +1120,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="NamedMarker" id="{9bb56d01-b8bc-491d-b347-72bb161f8574}">
 		<property name="position">
-			<value>67.200000000000003</value>
+			<value>67.349999999999994</value>
 		</property>
 		<property name="name">
 			<value>Boss defeat</value>
@@ -1537,10 +1539,10 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="ParameterCondition" id="{3c7e92ac-0d43-409e-bff5-548119c423ca}">
 		<property name="minimum">
-			<value>0.099999994039535522</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{dbb57dd4-0839-44ea-a86e-e6ae18c192fb}</destination>
@@ -1575,10 +1577,10 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="ParameterCondition" id="{6b28a3f5-e4ac-41b2-8997-31f9aca6b00a}">
 		<property name="minimum">
-			<value>0.39999997615814209</value>
+			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>4</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{dbb57dd4-0839-44ea-a86e-e6ae18c192fb}</destination>
@@ -2095,10 +2097,10 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{b1b54ff0-f57d-4bd0-b45a-073cf3dab66a}">
 		<property name="position">
-			<value>0.20000000000000001</value>
+			<value>2.75</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-75</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.56459111</value>
@@ -2106,7 +2108,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{2f85f962-e2d5-4444-815f-0f10b77efb5b}">
 		<property name="position">
-			<value>0.25</value>
+			<value>2.9499999999999993</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2114,10 +2116,10 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{3c54a8c6-befb-4cf9-b47e-3e1dc16a2f33}">
 		<property name="position">
-			<value>0.20000000000000001</value>
+			<value>2.8000000000000003</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-58</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -2125,7 +2127,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{061506a8-ac1b-4a16-bfa3-5e3bfb2d730f}">
 		<property name="position">
-			<value>0.25</value>
+			<value>2.9999999999999996</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2133,7 +2135,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{9638f330-9dea-45d8-b04d-15d27479d75f}">
 		<property name="position">
-			<value>0.10000000000000001</value>
+			<value>1.8</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2144,7 +2146,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{81d6dfd8-0d45-40d9-bc25-00057639a2f8}">
 		<property name="position">
-			<value>0.14999999999999997</value>
+			<value>2</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2152,7 +2154,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{b36643ef-c2c8-4822-9e16-f86e53dacb59}">
 		<property name="position">
-			<value>0.10000000000000001</value>
+			<value>1.8</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2163,7 +2165,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{05e504e4-ac10-4912-a200-1c0e71baa29f}">
 		<property name="position">
-			<value>0.14999999999999997</value>
+			<value>1.9999999999999998</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2171,7 +2173,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{568d3928-2aa2-4578-bf41-8c3e82d63a78}">
 		<property name="position">
-			<value>0.20000000000000001</value>
+			<value>2.2000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2182,7 +2184,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{ec681b43-6881-4367-850a-b4512236b947}">
 		<property name="position">
-			<value>0.25</value>
+			<value>2.3999999999999986</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2190,15 +2192,15 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{67cde1f3-8293-43dc-9304-6a0aec441e96}">
 		<property name="position">
-			<value>0.10012126111560224</value>
+			<value>0.99822150363783346</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{491a3b37-0806-4b8b-89c8-04028dcc497d}">
 		<property name="position">
-			<value>0.050565885206143898</value>
+			<value>0.80000000000000004</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2209,7 +2211,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{f1778669-6b76-49fc-88bf-e9b715ff4a61}">
 		<property name="position">
-			<value>0.050000000000000003</value>
+			<value>0.80000000000000004</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2220,7 +2222,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{39259201-d152-4f3f-8bac-e5114d28233c}">
 		<property name="position">
-			<value>0.10092966855295063</value>
+			<value>1.0037186742118027</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2228,7 +2230,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{8c0692db-a44b-44a9-8bc4-336fc16e94f7}">
 		<property name="position">
-			<value>0.10000000000000001</value>
+			<value>1.0000000000000004</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -2236,7 +2238,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{de22ae31-6719-4bfb-8a28-2e161dbf4310}">
 		<property name="position">
-			<value>0</value>
+			<value>0.60000000000000009</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -2247,7 +2249,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{70f0800e-4375-4041-bb90-d6bea7332fcb}">
 		<property name="position">
-			<value>0.049312853678253839</value>
+			<value>0.80000000000000004</value>
 		</property>
 		<property name="value">
 			<value>-56.6666679</value>
@@ -2258,7 +2260,7 @@ Stinger för när man besegrar bossen</value>
 	</object>
 	<object class="AutomationPoint" id="{a133ae71-2da7-4f3d-b41e-5423b138f2cd}">
 		<property name="position">
-			<value>0.099434114793856096</value>
+			<value>1.0004850444624092</value>
 		</property>
 		<property name="value">
 			<value>0</value>

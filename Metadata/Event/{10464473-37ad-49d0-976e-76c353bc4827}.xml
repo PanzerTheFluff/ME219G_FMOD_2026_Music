@@ -52,6 +52,7 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<destination>{922f2369-a5be-4d4e-a7a1-85eebd791651}</destination>
 			<destination>{5c863c45-8e52-49af-83a3-b002b11f1108}</destination>
 			<destination>{eaf72ddc-0cd0-4b31-bab0-af7a517552be}</destination>
+			<destination>{45aa318e-c50c-4603-883b-5e41c9c57d6b}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
@@ -97,10 +98,14 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{8d81a2a8-6c8c-424f-af43-b05133af2923}">
+		<relationship name="automationTracks">
+			<destination>{03aa99b8-d054-4617-9333-81d1a243ea16}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{ceccec52-1872-494e-adef-65154aeb3368}</destination>
 			<destination>{2b03152a-5d40-4af4-b638-a733f89a0cb9}</destination>
 			<destination>{b9d0b77e-8062-4648-8f98-81d49adc8904}</destination>
+			<destination>{19816f68-4a02-4d2e-865c-b729357c7a36}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{efc250b7-c1a5-4a5f-ab8c-10fc042269b5}</destination>
@@ -169,6 +174,7 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<destination>{825cb4d8-313e-4443-a48e-9e9f6ca60ff6}</destination>
 			<destination>{b34c4170-0de7-4082-9c89-b36c4f1a3053}</destination>
 			<destination>{42410901-80c0-4153-a657-4659566fd5c2}</destination>
+			<destination>{19816f68-4a02-4d2e-865c-b729357c7a36}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{2d32796d-4db6-4406-b6b5-0c305d3a725a}</destination>
@@ -188,6 +194,11 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 	<object class="ParameterProxy" id="{eaf72ddc-0cd0-4b31-bab0-af7a517552be}">
 		<relationship name="preset">
 			<destination>{85644afc-7254-4d96-9ef9-1aaf94bf55f1}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{45aa318e-c50c-4603-883b-5e41c9c57d6b}">
+		<relationship name="preset">
+			<destination>{b717fe90-2780-49fc-b977-2d1e460027a3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f01775e4-6142-4053-b89a-f56e4674e5b3}">
@@ -281,10 +292,18 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<destination>{f01775e4-6142-4053-b89a-f56e4674e5b3}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationTrack" id="{03aa99b8-d054-4617-9333-81d1a243ea16}">
+		<relationship name="automator">
+			<destination>{7aaa3ae0-4588-47b8-85d4-e05dbb8749bd}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{ceccec52-1872-494e-adef-65154aeb3368}">
 		<property name="length">
 			<value>40.114217687074827</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{dcbf3c0e-af70-4e63-90ec-76aaf15b9e45}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{3480c583-6a0b-497f-a424-d17456047030}</destination>
 		</relationship>
@@ -302,6 +321,20 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 			<value>2</value>
 		</property>
 	</object>
+	<object class="SingleSound" id="{19816f68-4a02-4d2e-865c-b729357c7a36}">
+		<property name="start">
+			<value>21.333333333333332</value>
+		</property>
+		<property name="length">
+			<value>40.114217687074827</value>
+		</property>
+		<relationship name="fadeInCurve">
+			<destination>{174378db-6260-420e-af23-a183e7024cc3}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{3480c583-6a0b-497f-a424-d17456047030}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{efc250b7-c1a5-4a5f-ab8c-10fc042269b5}">
 		<property name="volume">
 			<value>-80</value>
@@ -309,6 +342,9 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
+		<relationship name="automators">
+			<destination>{7aaa3ae0-4588-47b8-85d4-e05dbb8749bd}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b7dd87a1-8c73-4079-96e9-a5252b531272}</destination>
 		</relationship>
@@ -607,6 +643,17 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7a609502-d1ed-4fa1-89ab-8d10beafefbf}" />
+	<object class="FadeCurve" id="{dcbf3c0e-af70-4e63-90ec-76aaf15b9e45}">
+		<relationship name="startPoint">
+			<destination>{48c50b8f-bc85-4bb3-b2b0-1ad47f93625b}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{e81418d9-3939-49cf-b09e-8cfb0ae33ec3}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{19816f68-4a02-4d2e-865c-b729357c7a36}</destination>
+		</relationship>
+	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{22a42c1d-5a70-4ef0-ba8c-0195787bb667}">
 		<relationship name="startPoint">
 			<destination>{605aca70-7b04-4c8c-a09f-ce89ae4fa191}</destination>
@@ -616,6 +663,25 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{b9d0b77e-8062-4648-8f98-81d49adc8904}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{174378db-6260-420e-af23-a183e7024cc3}">
+		<relationship name="startPoint">
+			<destination>{4cb85d38-e0b0-434f-84e5-2ead8ad3fa75}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{541a7605-1ab4-4444-a9ad-2596f9abc84d}</destination>
+		</relationship>
+		<relationship name="relatedModule">
+			<destination>{ceccec52-1872-494e-adef-65154aeb3368}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{7aaa3ae0-4588-47b8-85d4-e05dbb8749bd}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{87d00c0e-4651-4f2d-8a8e-c91966a0e5b9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b7dd87a1-8c73-4079-96e9-a5252b531272}">
@@ -797,6 +863,25 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{78c77aa7-8ac7-4f0b-a09e-3790c038f139}" />
+	<object class="AutomationPoint" id="{48c50b8f-bc85-4bb3-b2b0-1ad47f93625b}">
+		<property name="position">
+			<value>21.333333333333332</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e81418d9-3939-49cf-b09e-8cfb0ae33ec3}">
+		<property name="position">
+			<value>40.114217687074827</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{605aca70-7b04-4c8c-a09f-ce89ae4fa191}">
 		<property name="position">
 			<value>0</value>
@@ -815,6 +900,34 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 		<property name="value">
 			<value>0</value>
 		</property>
+	</object>
+	<object class="AutomationPoint" id="{4cb85d38-e0b0-434f-84e5-2ead8ad3fa75}">
+		<property name="position">
+			<value>21.333333333333332</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{541a7605-1ab4-4444-a9ad-2596f9abc84d}">
+		<property name="position">
+			<value>40.114217687074827</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{87d00c0e-4651-4f2d-8a8e-c91966a0e5b9}">
+		<relationship name="parameter">
+			<destination>{b717fe90-2780-49fc-b977-2d1e460027a3}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{d7428bda-5776-44f8-8e8f-eb13c63381c1}</destination>
+			<destination>{e34657d0-42b2-4976-91cf-e8eddfdb0a25}</destination>
+		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{9a4372d0-e99b-4731-b99f-bb36e008551c}">
 		<property name="transmitMode">
@@ -950,6 +1063,22 @@ Transeiver/reciver är för ForeginHomeShip, då musiken är 3d, och satt på sk
 	<object class="GainEffect" id="{9b5f55c2-1359-4034-9091-47419a82ff8e}">
 		<property name="gain">
 			<value>2.5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d7428bda-5776-44f8-8e8f-eb13c63381c1}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e34657d0-42b2-4976-91cf-e8eddfdb0a25}">
+		<property name="position">
+			<value>0.98999999999999999</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{090786c5-25d2-49d8-95f8-462e443400dd}">

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{dd8c7bc0-951e-424d-99ac-cdb7c5f2c54f}">
+		<property name="name">
+			<value>ToggleShip</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b717fe90-2780-49fc-b977-2d1e460027a3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b717fe90-2780-49fc-b977-2d1e460027a3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
