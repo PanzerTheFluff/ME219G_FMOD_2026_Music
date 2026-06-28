@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{277b3f94-d2fa-459a-902a-bc5be317946a}">
 		<property name="note">
-			<value>Stinger för när man löser puzzel i zon 4</value>
+			<value>Stinger för när man löser puzzel i zon 4 (kunde ite lista ut hur man fick det att fungera/var ljudet skulle ha spelats i zon 4 :(</value>
 		</property>
 		<property name="name">
 			<value>stingerPuzzleSolved</value>
