@@ -4,7 +4,7 @@
 		<property name="note">
 			<value>ForeginHome har 2 perameters och e3 transeiver/reciver.
 
-ToggleSky är en parameter för progression angående nycklar. den ska vara på huvud dörren. (har också 2 transiver/receiver:s för att ha liknande effekt som ForeginHomeShip I zon 1, som inte verkar fungera som det ska dock pga Unity.
+ToggleSky är en parameter för när man är nära dörren i zon 2
 
 ToggleZone3 är en parameter för Zon 3:s variant.
 
